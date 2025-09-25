@@ -5,8 +5,7 @@ public class Ex001_HelloWorld {
 	public static void main(String[] args) {
 		
 		/*	*	Ex. 001 
-		 * 
-		 * 	DESCRIÇÃO: 
+		 * *	Descrição: 
 		 * *	Imprima Hello, World no console.
 		 * */
 		

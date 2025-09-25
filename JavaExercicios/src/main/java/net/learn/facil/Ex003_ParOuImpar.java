@@ -7,8 +7,7 @@ public class Ex003_ParOuImpar {
 	public static void main(String[] args) {
 		
 		/*	*	 Ex. 003
-		 * 
-		 * *	 DESCRIÇÃO: 
+		 * *	 Descrição: 
 		 * *	 Verifique se um número é par ou impar.
 		 * */
 		

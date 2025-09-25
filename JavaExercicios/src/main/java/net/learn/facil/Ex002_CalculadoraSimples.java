@@ -7,8 +7,7 @@ public class Ex002_CalculadoraSimples {
 	public static void main(String[] args) {
 		 
 		/*	*	 Ex. 002
-		 * 
-		 * * 	 DESCRIÇÃO: 
+		 * * 	 Descrição: 
 		 * *	 Ler dois números e exibir a soma, subtração, multiplicação e divisão.
 		 * */
 	

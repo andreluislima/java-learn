@@ -6,8 +6,7 @@ public class Ex004_Tabuada {
 
 	public static void main(String[] args) {
 		/*	*	 Ex. 004
-		 * 
-		 * *	 DESCRIÇÃO: 
+		 * *	 Descrição: 
 		 * *	 Imprimir a tabuada de um número de 1 a 10.
 		 * */
 		
@@ -17,7 +16,7 @@ public class Ex004_Tabuada {
 		System.out.println("Digite um número: ");
 		Integer num = read.nextInt();
 		
-		for (int i = 1; i<11; i++) {
+		for (int i = 1; i<=10; i++) {
 			Integer calc = num * i;
 			System.out.println(num + "x" + i + " = " + calc);
 		}
