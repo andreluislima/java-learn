@@ -23,9 +23,7 @@ public class Ex005_Fatorial {
 		Integer num = read.nextInt();
 		
 		List<Integer> numeros = new ArrayList<>();
-		Integer[] lista;
 
-//		>>> ### LIST ### <<<
 		for(int i=1; i<=num; i++) {
 			Integer anterior = ((num +1)-i);			
 			numeros.add(anterior);
@@ -40,7 +38,6 @@ public class Ex005_Fatorial {
 		
 		System.out.println("Fatorial de: " + num + "= " + fatorial);
 		
-
 
  	}
 
