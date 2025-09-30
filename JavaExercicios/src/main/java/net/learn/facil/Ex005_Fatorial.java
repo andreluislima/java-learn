@@ -23,25 +23,24 @@ public class Ex005_Fatorial {
 		Integer num = read.nextInt();
 		
 		List<Integer> numeros = new ArrayList<>();
+		Integer[] lista;
 
+//		>>> ### LIST ### <<<
 		for(int i=1; i<=num; i++) {
-			Integer anterior = ((num +1)-i);
-			System.out.printf(anterior + ", ");
-			
+			Integer anterior = ((num +1)-i);			
 			numeros.add(anterior);
-			
 		}
 		
-		Integer fatorial = num;
-
-		for(int n : numeros) {
-			fatorial = fatorial * n;	
+		Integer  fatorial = 1;
+		
+		for(int i=0; i < numeros.size(); i++) {
+			fatorial *= numeros.get(i);
+			System.out.println("Numero: " + numeros.get(i));
 		}
 		
 		System.out.println("Fatorial de: " + num + "= " + fatorial);
 		
-//		System.out.println("lista: " + numeros);
-//		System.out.println("Item da lista: " + numeros.get(0));
+
 
  	}
 
